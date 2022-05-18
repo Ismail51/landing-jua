@@ -12,7 +12,7 @@
 </head>
 
 <body>
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <nav class="navbar navbar-expand-lg fixed-top" style="background-color: #7368a8;">
     <div class="container-fluid">
       <a class="navbar-brand" href="#">Juste Une Aide</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -38,44 +38,75 @@
     </div>
   </nav>
   <header>
-    <div class="container-fluid">
+    <div class="container-fluid mt-5">
       <h1>Qui sommes nous</h1>
-      <p>Juste Une Aide est une plateforme où les personnes à mobilité réduite ou en situation d’handicap peuvent faire
+      <p>Juste Une Aide est une plateforme où les personnes à mobilité réduite ou en situation d’handicap peuvent
+        faire
         appel à des membres de notre réseau qui ont les compétences pour résoudre vos problèmes quotidiens </p>
     </div>
   </header>
-  <div id="carouselExampleFade" class="carousel slide carousel-fade d-block w-50 " data-bs-ride="carousel">
-    <div class="carousel-inner">
-      <div class="carousel-item active">
-        <img src="./Acer_Wallpaper_01_5000x2814.jpg" class="d-block w-100" alt="...">
+  <div class="d-flex justify-content-center mt-5">
+    <div id="carouselExampleFade" class="carousel slide carousel-fade d-block w-50 " data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="./Acer_Wallpaper_01_5000x2814.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="./Acer_Wallpaper_02_5000x2813.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="./Planet9_Wallpaper_5000x2813.jpg" class="d-block w-100" alt="...">
+        </div>
       </div>
-      <div class="carousel-item">
-        <img src="./Acer_Wallpaper_02_5000x2813.jpg" class="d-block w-100" alt="...">
-      </div>
-      <div class="carousel-item">
-        <img src="./Planet9_Wallpaper_5000x2813.jpg" class="d-block w-100" alt="...">
-      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
     </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Previous</span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Next</span>
-    </button>
   </div>
   <main>
-    <div class="jua">
+    <div class="jua d-flex justify-content-center mb-5">
       <div class="toto"></div>
-
+    </div>
+    <div>
+      <div class="h2 class d-flex justify-content-center mb-5">
+        <h2>J'ai besoin d'aide</h2>
+      </div>
+      <div class="middle d-flex justify-content-right ">
+        <div class="left d-flex justify-content-center w-50">
+          <img src="./a.webp" alt="">
+        </div>
+        <div class="right d-flex justify-content-right flex-column col-5 mb-5">
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam, voluptatem minima quia accusantium soluta
+            exercitationem.</p>
+          <button type="button" class="btn btn-success w-25">Je m'inscris</button>
+        </div>
+      </div>
     </div>
 
-
+    <div class="jua2 d-flex justify-content-center mb-5">
+      <div class="toto"></div>
+    </div>
+    <div>
+      <div class="h2 class d-flex justify-content-center mb-5">
+        <h2>J'ai besoin d'aide</h2>
+      </div>
+      <div class="middle2 d-flex justify-content-center">
+        <div class="right2 d-flex justify-content-right flex-column col-5 mb-5 ml-5">
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam, voluptatem minima quia accusantium soluta
+            exercitationem.</p>
+          <button type="button2" class="btn btn-warning w-50">Je veux aider</button>
+        </div>
+        <div class="left2 d-flex justify-content-center w-50">
+          <img src="./b.webp" alt="">
+        </div>
+      </div>
+    </div>
   </main>
-
-
-
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
     crossorigin="anonymous"></script>
