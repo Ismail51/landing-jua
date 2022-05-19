@@ -42,3 +42,29 @@ body{
   background-attachment: fixed;
   width: 100%;
 }
+.team{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.box{
+  height: 250px;
+  width: 250px;
+  background: green;
+}
+h4{
+  text-align: center;
+}
+.equipe {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.line{
+  border-top: 4px solid black;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
