@@ -1,19 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@500&display=swap');
+
 * {box-sizing:border-box}
 body{
   position: absolute;
 }
 
-.container-fluid h1 {
+.container-fluid h2{
     text-align:center;
-    padding-top:60px;
+    color: white;
 }
 p {
    text-align:start;
-   font-size:1.5em;
+   font-size:1.7em;
    font-weight:600;
    padding-top:20px;
 }
-
+.text-top{
+  margin-top:80px;
+  color: black!important;
+}
 h1 h2{
 font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
@@ -33,38 +38,98 @@ nav{
   border-bottom: 2px solid black;
 }
 h2{
-  margin-top: 20px;
+  /* margin-top: 70px; */
 }
 body{
-  background:url("photo-1563291074-2bf8677ac0e5.jpg");
+  background:url("imageFond.webp");
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
   width: 100%;
 }
-.team{
+
+
+/* team profil */
+
+.team-profil {
   display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  align-items: center;
-}
-.box{
-  height: 250px;
-  width: 250px;
-  background: green;
-}
-h4{
-  text-align: center;
-}
-.equipe {
-  display: flex;
-  justify-content: space-evenly;
+  padding: 20px;
+justify-content: center;
+align-items: center;
 }
 
-.line{
-  border-top: 4px solid black;
-  width: 50%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.box {
+  margin: 20px;
+  padding: 30px;
+  flex-wrap: wrap;
+  height: 450px;
+  font-family: 'Montserrat Alternates', sans-serif;
+  background-color: #b1bbc2;
+  border-radius: 10%;
+  box-shadow: 10px 5px 5px rgb(44, 42, 42);
+  width: 20%;
+}
+
+.box h3 {
+  text-align: center;
+  height: 50px;
+}
+
+.box h4 {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.box p {
+  text-align: center;
+  font-size: 1.4rem;
+}
+
+.section-title{
+text-align: center;
+}
+.carousel-item img {
+ background-color: white;
+  height:500px
+}
+
+.right2{
+  margin-left: 200px;
+}
+
+.btn{
+  height: 60px!important;
+  width: 200px!important;
+  font-size: 1.5rem!important;
+}
+
+@media screen and (max-width:1100px){
+  .team-profil{
+    flex-direction: column;
+    padding:0px
+  }
+  .box{
+    width: 30%;
+  }
+}
+
+@media screen and (max-width:992px){
+  .team-profil{
+    flex-direction: column;
+    padding:0px
+  }
+  .box{
+    width: 30%;
+  }
+}
+
+
+@media screen and (max-width:700px){
+  .team-profil{
+    flex-direction: column;
+    padding:0px
+  }
+  .box{
+    width: 30%;
+  }
 }
