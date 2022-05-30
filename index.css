@@ -37,9 +37,9 @@ align-items: center;
 nav{
   border-bottom: 2px solid black;
 }
-h2{
-  /* margin-top: 70px; */
-}
+/* h2{
+  margin-top: 70px;
+} */
 body{
   background:url("imageFond.webp");
   background-repeat: no-repeat;
@@ -65,7 +65,7 @@ align-items: center;
   height: 450px;
   font-family: 'Montserrat Alternates', sans-serif;
   background-color: #b1bbc2;
-  border-radius: 10%;
+  border-radius: 2rem;
   box-shadow: 10px 5px 5px rgb(44, 42, 42);
   width: 20%;
 }
